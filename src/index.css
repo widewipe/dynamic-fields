@@ -1,0 +1,60 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Montserrat, sans-serif;
+}
+
+body {
+  background-color: #333;
+  color: #ddd;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.input {
+  display: flex;
+  flex-direction: column;
+  margin: 30px 0;
+  gap: 10px
+}
+
+.input input {
+  height: 50px;
+  padding: 10px;
+  width: 500px;
+  border: none;
+  border-bottom: 1px solid #aaa;
+  outline: none;
+  background-color: #333;
+  color: #ddd;
+  transition: all 0.2s ease;
+}
+
+.input input:focus {
+  border-bottom: 1px solid #eab308;
+}
+
+::placeholder {
+  color: #888
+}
+
+input[type="checkbox"] {
+  height: 15px;
+  width: 15px;
+}
+
+.checkbox {
+  display: flex;
+  justify-content: space-between;
+  width: 500px;
+}
+
+button {
+  padding: 10px 30px;
+}
